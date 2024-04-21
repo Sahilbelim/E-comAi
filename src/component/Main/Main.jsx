@@ -317,7 +317,7 @@ try {
   };
 
   if (!browserSupportsSpeechRecognition) {
-    return null;
+    return alert("Speech recognition is not supported on this browser use unother browsers");
   }
   return (
     <div className="main  ">
